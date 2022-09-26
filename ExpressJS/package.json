@@ -1,0 +1,19 @@
+{
+  "name": "expressjs",
+  "version": "1.0.0",
+  "description": "ExpressJS",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx nodemon server/server.js -w server"
+  },
+  "author": "Sahana",
+  "license": "ISC",
+  "dependencies": {
+    
+    "express": "^4.18.1",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
